@@ -1,0 +1,64 @@
+@import '@/styles/var.less';
+
+.tab-bar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: 12px 0 20px;
+  padding-bottom: @ios-bottom;
+  overflow: hidden;
+
+  .tab-bar-item {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+    .tab-icon {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 8px;
+      font-size: 60px;
+      font-weight: 500;
+      color: @break-color5;
+    }
+
+    .tab-label {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0;
+      color: @break-color5;
+      text-align: center;
+    }
+  }
+
+  .tab-item-active {
+
+    .tab-icon {
+      color: @primary-color;
+    }
+
+    .tab-label {
+      color: @primary-color;
+    }
+  }
+
+  .tab-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    background: rgb(255 255 255 / 85%);
+    filter: blur(4px);
+  }
+}
+
+.tab-fixed {
+  bottom: 0;
+}

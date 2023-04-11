@@ -1,0 +1,12 @@
+{
+  "git.autofetch": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.semi": false, //去掉代码结尾的分号
+  "prettier.singleQuote": true, //使用带引号替代双引号
+  "editor.codeActionsOnSave": {
+	  "source.fixAll.stylelint": true
+	},
+  "stylelint.validate": ["css", "less", "postcss", "scss", "sass",],
+}

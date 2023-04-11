@@ -1,0 +1,14 @@
+# Ignore artifacts:
+build/*.js
+coverage
+public
+dist
+node_modules
+config
+prettierrc
+.DS_Store
+.eslintrc.json
+node_modules
+
+# Ignore all HTML files:
+*.html

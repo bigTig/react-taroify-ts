@@ -1,0 +1,30 @@
+.navigation-bar {
+  position: relative;
+
+  .navigation-back {
+    position: absolute;
+    z-index: 99;
+    width: 64px;
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      left: 24px;
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-bottom: 4px solid #fff;
+      border-left: 4px solid #fff;
+      border-radius: 4px;
+      content: "";
+      transform: translateY(-50%) rotate(45deg);
+    }
+  }
+
+  .navigation-title {
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+  }
+}
