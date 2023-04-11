@@ -1,6 +1,7 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "pipa-cat",
+  "projectname": "react-taroify-ts",
+  "description": "一套基于 Taro 结合 React 框架 开放式跨端跨框架解决方案。",
   "appid": "testAppId",
   "setting": {
     "es6": false,

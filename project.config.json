@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "pipa-cat",
-  "description": "一个宠物社区",
+  "projectname": "react-taroify-ts",
+  "description": "一套基于 Taro 结合 React 框架 开放式跨端跨框架解决方案。",
   "appid": "wx75bc3eeccaaa90b4",
   "setting": {
     "urlCheck": false,
@@ -9,7 +9,7 @@
     "enhance": true,
     "postcss": false,
     "preloadBackgroundData": false,
-    "minified": false,
+    "minified": true,
     "newFeature": false,
     "coverView": true,
     "nodeModules": false,

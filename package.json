@@ -1,8 +1,8 @@
 {
-  "name": "pipa-cat",
+  "name": "react-taroify-ts",
   "version": "1.0.0",
   "private": true,
-  "description": "一个宠物社区",
+  "description": "一套基于 Taro 结合 React 框架 开放式跨端跨框架解决方案。",
   "templateInfo": {
     "name": "default",
     "typescript": true,
