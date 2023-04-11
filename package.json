@@ -51,6 +51,11 @@
       "eslint --fix"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
   "dependencies": {
     "@babel/runtime": "^7.21.0",
     "@taroify/core": "^0.1.0-alpha.1",
