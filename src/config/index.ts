@@ -14,10 +14,6 @@ const config: any = {
     ...baseConfig,
     baseUrl: 'https://test.sdc.sinohealth.com/sit/hccm',
   },
-  demo: {
-    ...baseConfig,
-    baseUrl: 'https://demo.sdc.sinohealth.com/hccm',
-  },
   production: {
     ...baseConfig,
     baseUrl: 'https://demo.sdc.sinohealth.com/hccm',

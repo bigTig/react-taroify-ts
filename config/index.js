@@ -1,7 +1,7 @@
 const path = require('path');
 
 const config = {
-  projectName: 'pipa-cat',
+  projectName: 'react-taroify-ts',
   date: '2022-7-14',
   designWidth: 750,
   deviceRatio: {
@@ -45,7 +45,7 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
-    esnextModules: ["@taroify"],
+    esnextModules: ['@taroify'],
     postcss: {
       autoprefixer: {
         enable: true,
@@ -65,6 +65,9 @@ const config = {
 module.exports = function (merge) {
   if (process.env.NODE_ENV === 'development') {
     return merge({}, config, require('./dev'));
+  }
+  if (process.env.NODE_ENV === 'sit') {
+    return merge({}, config, require('./sit'));
   }
   return merge({}, config, require('./prod'));
 };

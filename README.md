@@ -6,7 +6,7 @@
 
 ### 二、Git 仓库地址 (欢迎 Star⭐)
 
-- GitHub：(仓库地址)[https://github.com/bigTig/react-taroify-ts.git]
+- [GitHub：仓库地址](https://github.com/bigTig/react-taroify-ts.git)
 
 ### 三、🔨🔨🔨 项目功能
 
@@ -72,16 +72,13 @@ react18-taroify-ts
 │  ├─ config              # 全局配置项
 │  ├─ core                # 核心库
 │  ├─ hooks               # 常用 Hooks
-│  ├─ layouts             # 框架布局
-│  ├─ routers             # 路由管理
-│  ├─ store               # redux store
 │  ├─ styles              # 全局样式
 │  ├─ typings             # 全局 ts 声明
 │  ├─ utils               # 工具库
 │  ├─ pages               # 项目所有页面
 │  ├─ app.less            # 全局样式处理
-│  ├─ App.tsx             # 入口页面
-│  └─ index.tsx           # 入口文件
+│  ├─ app.config.ts       # 小程序配置
+│  └─ app.tsx             # 入口文件
 ├─ .cz-config.js          # cz-git 规范提交信息
 ├─ .editorconfig          # 编辑器配置（格式化）
 ├─ .eslintignore          # 忽略 Eslint 校验

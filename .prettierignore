@@ -4,7 +4,6 @@ coverage
 public
 dist
 node_modules
-config
 prettierrc
 .DS_Store
 .eslintrc.json
